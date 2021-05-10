@@ -9,6 +9,11 @@
   },
   "author": "Allan",
   "license": "ISC",
+  "homepage": "https://github.com/allan2/eslint-config-al",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allan2/eslint-config-al"
+  },
   "peerDependencies": {
     "eslint": "^7.26.0"
   },
