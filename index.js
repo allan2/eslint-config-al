@@ -1,5 +1,7 @@
 module.exports = {
-  root: true,
+  globals: {
+    MyGlobal: true,
+  },
   parser: "babel-eslint",
   plugins: ["react", "react-hooks", "jest", "import"],
   env: {
