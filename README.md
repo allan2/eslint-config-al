@@ -4,12 +4,22 @@ This is a config for React and TypeScript.
 
 1. To install, run:
 ```
-npm i--save-dev eslint-config
+npm i--save-dev eslint-config-al
 ```
 
-2. In your `.eslintrc` or `.eslintrc.json` file, add:
+2. In your `.eslintrc` file, add:
 ```js
 {
-  extends: "eslint-config-al"
+  extends: 'eslint-config-al'
+}
+```
+
+The file should look like:
+```js
+// index.js
+
+modules.exports = {
+  root: true,
+  extends: 'eslint-config-al'  
 }
 ```
