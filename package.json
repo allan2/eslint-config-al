@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-al",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Al's ESLint Config",
   "main": "index.js",
   "scripts": {
