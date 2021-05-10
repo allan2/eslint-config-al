@@ -1,13 +1,15 @@
 # Al's ESLint Config
 
 This is a config for React and TypeScript.
+Based off of the [NextJS config](https://github.com/vercel/next.js/blob/canary/.eslintrc.json) with some modifications.
+
 
 1. To install, run:
 ```
-npm i--save-dev eslint-config-al
+npm i -D eslint-config-al
 ```
 
-2. In your `.eslintrc` file, add:
+2. In your `.eslintrc.js` file, add:
 ```js
 {
   extends: 'eslint-config-al'
